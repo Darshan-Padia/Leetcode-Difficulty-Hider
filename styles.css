@@ -1,0 +1,9 @@
+/* styles.css */
+.text-difficulty-easy,
+.text-difficulty-medium,
+.text-difficulty-hard ,
+.text-olive,
+.text-yellow,
+.text-pink {
+  display: none !important;
+}

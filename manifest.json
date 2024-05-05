@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Hide LeetCode Difficulty",
+  "version": "1.0",
+  "description": "Hides LeetCode problem difficulty.",
+  "permissions": [],
+  "content_scripts": [
+    {
+      "matches": ["*://leetcode.com/problems/*", "*://leetcode.com/problemset/*"],
+      "js": ["content.js"],
+      "css": ["styles.css"],
+      "run_at": "document_end"
+    }
+  ]
+}
