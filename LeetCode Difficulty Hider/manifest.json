@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Hide LeetCode Difficulty",
+  "name": "Leetcode Difficulty Hider",
   "version": "1.0",
   "description": "Hides LeetCode problem difficulty.",
   "permissions": [],
